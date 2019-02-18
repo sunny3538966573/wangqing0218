@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/shape_commodity_bg"
+        android:layout_margin="@dimen/dp_10"
+        >
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/mlss_img"
+            android:layout_width="@dimen/dp_150"
+            android:layout_height="@dimen/dp_120"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            fresco:roundAsCircle="false"
+            fresco:roundedCornerRadius="@dimen/dp_5" />
+        <TextView
+            android:id="@+id/mlss_title"
+            android:layout_width="@dimen/dp_150"
+            android:layout_height="@dimen/dp_20"
+            android:text="aaa"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:singleLine="true"/>
+        <TextView
+            android:id="@+id/mlss_price"
+            android:layout_width="@dimen/dp_150"
+            android:layout_height="@dimen/dp_20"
+            android:text="12"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textColor="#f00"/>
+
+    </LinearLayout>
+
+</LinearLayout>
